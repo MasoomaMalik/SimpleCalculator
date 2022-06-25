@@ -4,12 +4,14 @@
 *{
    
     font-family: 'Montserrat Alternates', sans-serif;
+    
 }
 
 .oprBtn{
     font-family: 'Stick No Bills', sans-serif;
     color: orange !important; 
-    /* font-weight:  */
+    font-weight: 800 !important;
+    font-size: 3rem !important;
 
 }
 .btn:hover{
@@ -24,7 +26,8 @@
     flex-direction: column;
     align-items: center;
     
-
+padding-top:1vh;
+height: 100vh;
    
 }
 
@@ -41,10 +44,13 @@ color:gray !important;
     width:25% !important;
     /* border-radius: 0 !important; */
  padding: 1.5% !important; 
+ font-weight: 800 !important;
+ font-size: 3rem !important;
 }
 
 .form-floating{
     width: 75%;
+    height: 15vh !important;
 }
 .mybtn{
     display: flex;
