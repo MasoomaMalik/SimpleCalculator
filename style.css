@@ -5,6 +5,7 @@
    
     font-family: 'Montserrat Alternates', sans-serif;
     
+    
 }
 
 .oprBtn{
@@ -50,7 +51,8 @@ color:gray !important;
 
 .form-floating{
     width: 75%;
-    height: 15vh !important;
+  
+    margin: 0 !important;
 }
 .mybtn{
     display: flex;
