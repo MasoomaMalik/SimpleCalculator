@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;700;800&display=swap');
+
+*{
+   
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.oprBtn{
+    font-family: 'Stick No Bills', sans-serif;
+    color: orange !important; 
+    /* font-weight:  */
+
+}
+.btn:hover{
+    background-color:rgba(255, 187, 0, 0.562) !important;
+    }
+.oprBtn:hover{
+    background-color: rgba(128, 128, 128, 0.356) !important;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+   
+}
+
+.btn-light{
+    background-color: white !important;
+}
+.btn-light:focus{
+box-shadow: none !important;
+color:gray !important;
+
+
+}
+.btn{
+    width:25% !important;
+    /* border-radius: 0 !important; */
+ padding: 1.5% !important; 
+}
+
+.form-floating{
+    width: 75%;
+}
+.mybtn{
+    display: flex;
+    /* background-color: rgb(223, 203, 203); */
+    width:75%;
+    justify-content: space-between;
+    text-align: center;
+}
